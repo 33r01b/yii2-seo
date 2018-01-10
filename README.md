@@ -1,5 +1,16 @@
 ## Installing / Getting started
 
+0. add to composer.json & update composer
+```json
+    "repositories": [
+        ...
+        {
+            "type": "vcs",
+            "url": "https://github.com/zeroonebeatz/yii2-seo.git"
+        }
+    ]
+```
+
 1. create `seotext` table
 
 ```php
