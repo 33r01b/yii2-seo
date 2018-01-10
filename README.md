@@ -64,3 +64,5 @@ public function actionPage($id_slug)
     return $this->render('page', ['model' => $model]);
 }
 ```
+
+forked from [Easyii](https://github.com/noumo/easyii)
