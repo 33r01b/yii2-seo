@@ -23,6 +23,7 @@ public function up()
         'description' => $this->string(),
         'keywords' => $this->string(),
         'table_name' => $this->string(64),
+        'item_id' => $this->integer(),
     ]);
 }
 

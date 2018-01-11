@@ -11,6 +11,8 @@ use yii\db\ActiveRecord;
  * @property string $title
  * @property string $keywords
  * @property string $description
+ * @property string $table_name
+ * @property int $item_id
  */
 class SeoText extends ActiveRecord
 {
@@ -25,6 +27,8 @@ class SeoText extends ActiveRecord
             [['h1', 'title', 'keywords', 'description'], 'trim'],
             [['h1', 'title'], 'string', 'max' => 128],
             [['description', 'keywords'], 'string', 'max' => 256],
+            [['table_name'], 'string', 'max' => 64],
+            [['item_id'], 'integer'],
         ];
     }
 
