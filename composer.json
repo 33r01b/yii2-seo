@@ -14,12 +14,12 @@
     },
     "autoload": {
         "psr-4": {
-            "zeroonebeatz\\seo": "src/"
+            "zeroonebeatz\\seo\\": "src/"
         } 
     },
     "autoload-dev": {
         "psr-4": {
-            "zeroonebeatz\\seo\\tests": "tests/"
+            "zeroonebeatz\\seo\\tests\\": "tests/"
         } 
     }
 }
