@@ -1,10 +1,10 @@
 <?php
-namespace zeroonbeatz\seo;
+namespace zeroonebeatz\seo;
 
 use Yii;
 use yii\base\Behavior;
 use yii\db\ActiveRecord;
-use zeroonebeatz\SeoText;
+use zeroonebeatz\seo\SeoText;
 
 class SeoBehavior extends Behavior
 {

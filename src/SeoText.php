@@ -1,5 +1,5 @@
 <?php
-namespace zeroonbeatz\seo;
+namespace zeroonebeatz\seo;
 
 use Yii;
 use yii\db\ActiveRecord;
