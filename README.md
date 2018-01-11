@@ -38,7 +38,7 @@ public function behaviors()
 {
     return [
         //...
-        'seoBehavior' => zeroonebeatz\seo\SeoBehavior::className(),
+        'seoBehavior' => \zeroonebeatz\seo\SeoBehavior::className(),
     ];
 }
 ```
@@ -49,7 +49,7 @@ public function behaviors()
 <?php $form = ActiveForm::begin(); ?>
 ...
 
-<?= zeroonebeatz\seo\widget\SeoForm::widget(['model' => $model]) ?>
+<?= \zeroonebeatz\seo\widget\SeoForm::widget(['model' => $model]) ?>
 
 ...
 <?php ActiveForm::end(); ?>
@@ -69,7 +69,7 @@ public function actionPage($id_slug)
         throw new NotFoundHttpException('The requested page does not exist.');
     }
 
-    $seo = new zeroonebeatz\seo\services\RegisterSeo($model, $this);
+    $seo = new \zeroonebeatz\seo\services\RegisterSeo($model, $this);
     $seo->register();
 
     return $this->render('page', ['model' => $model]);

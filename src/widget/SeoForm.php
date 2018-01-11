@@ -1,6 +1,6 @@
 <?php
 
-namespace zeroonebeatz\widget\seo;
+namespace zeroonebeatz\seo\widget;
 
 use Yii;
 use yii\base\Widget;
