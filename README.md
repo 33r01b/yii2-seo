@@ -22,6 +22,7 @@ public function up()
         'title' => $this->string(128),
         'description' => $this->string(),
         'keywords' => $this->string(),
+        'table_name' => $this->string(64),
     ]);
 }
 
