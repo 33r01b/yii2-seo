@@ -2,8 +2,10 @@
 
 0. add to composer.json & update composer
 ```json
+    "require": {
+        "zeroonebeatz/yii2-seo": "dev-master",
+    },
     "repositories": [
-        ...
         {
             "type": "vcs",
             "url": "https://github.com/zeroonebeatz/yii2-seo.git"
